@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Collections;
 
 namespace generics
 {
@@ -8,12 +9,19 @@ namespace generics
         {
             Mygenericlist<string> strlist = new Mygenericlist<string>();
             strlist.add("rsdhakrisna");
+            strlist.add("rsdhagovinda");
+
+
+            foreach(var item in strlist)
+            {
+                Console.WriteLine(item);
+            }
+
 
             Mygenericlist<int> intlist = new Mygenericlist<int>();
             intlist.add(1);
 
 
-            Console.WriteLine(strlist.Get());
             Console.WriteLine(intlist.Get());
             Mygenericlist<customer> cuslist = new Mygenericlist<customer>();
 
@@ -23,7 +31,7 @@ namespace generics
     {
         public string Name { get; set; }
     }
-    public class Mygenericlist<T>
+    public class Mygenericlist<T> : IEnumerable
     {
         private T[] _stringarray;
         private int _addposition = 0;
@@ -45,6 +53,11 @@ namespace generics
             T item = _stringarray[_getposition];
             _getposition++;
             return item;
+        }
+
+        public IEnumerator GetEnumerator()
+        {
+            return _stringarray.GetEnumerator();
         }
     }
 }
