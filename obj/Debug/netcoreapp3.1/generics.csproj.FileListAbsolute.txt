@@ -1,0 +1,13 @@
+C:\Users\16133\source\repos\generics\generics\bin\Debug\netcoreapp3.1\generics.exe
+C:\Users\16133\source\repos\generics\generics\bin\Debug\netcoreapp3.1\generics.deps.json
+C:\Users\16133\source\repos\generics\generics\bin\Debug\netcoreapp3.1\generics.runtimeconfig.json
+C:\Users\16133\source\repos\generics\generics\bin\Debug\netcoreapp3.1\generics.runtimeconfig.dev.json
+C:\Users\16133\source\repos\generics\generics\bin\Debug\netcoreapp3.1\generics.dll
+C:\Users\16133\source\repos\generics\generics\bin\Debug\netcoreapp3.1\generics.pdb
+C:\Users\16133\source\repos\generics\generics\obj\Debug\netcoreapp3.1\generics.csprojAssemblyReference.cache
+C:\Users\16133\source\repos\generics\generics\obj\Debug\netcoreapp3.1\generics.AssemblyInfoInputs.cache
+C:\Users\16133\source\repos\generics\generics\obj\Debug\netcoreapp3.1\generics.AssemblyInfo.cs
+C:\Users\16133\source\repos\generics\generics\obj\Debug\netcoreapp3.1\generics.csproj.CoreCompileInputs.cache
+C:\Users\16133\source\repos\generics\generics\obj\Debug\netcoreapp3.1\generics.dll
+C:\Users\16133\source\repos\generics\generics\obj\Debug\netcoreapp3.1\generics.pdb
+C:\Users\16133\source\repos\generics\generics\obj\Debug\netcoreapp3.1\generics.genruntimeconfig.cache
