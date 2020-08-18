@@ -25,6 +25,21 @@ namespace generics
             Console.WriteLine(intlist.Get());
             Mygenericlist<customer> cuslist = new Mygenericlist<customer>();
 
+            someclass<int>.somemethod();
+            someclass<string>.somemethod();
+            someclass<customer>.somemethod();
+        }
+    }
+
+
+    public static class someclass<T>
+    {
+
+        public static void somemethod()
+        {
+            Console.WriteLine(1);
+            Console.WriteLine($"My type is {typeof(T)}");
+
         }
     }
     public class customer
@@ -39,7 +54,7 @@ namespace generics
 
         public Mygenericlist()
         {
-            _stringarray = new T[1000];
+            _stringarray = new T[10];
 
         }
 
@@ -48,7 +63,7 @@ namespace generics
             _stringarray[_addposition] = item;
             _addposition++;
         }
-        public T Get()
+        public T Get()  
         {
             T item = _stringarray[_getposition];
             _getposition++;
